@@ -1,0 +1,128 @@
+2021-07-29 14:09:24 +05:30: port 3046
+2021-07-29 14:09:24 +05:30: Initializing the routes. ooh, YEAH!!!
+2021-07-29 14:09:24 +05:30: Executing (default): SELECT 1+1 AS result
+2021-07-29 14:09:24 +05:30: MYSQL --> Connection to DB has been established successfully.
+2021-07-29 14:09:56 +05:30: port 3046
+2021-07-29 14:09:56 +05:30: Initializing the routes. ooh, YEAH!!!
+2021-07-29 14:09:57 +05:30: (node:162866) [SEQUELIZE0002] DeprecationWarning: The logging-option should be either a function or false. Default: console.log
+2021-07-29 14:09:57 +05:30: (Use `node --trace-deprecation ...` to show where the warning was created)
+2021-07-29 14:09:57 +05:30: (node:162866) [SEQUELIZE0003] DeprecationWarning: String based operators are deprecated. Please use Symbol based operators for better security, read more at https://sequelize.org/master/manual/querying.html#operators
+2021-07-29 14:09:57 +05:30: Executing (default): SELECT 1+1 AS result
+2021-07-29 14:09:57 +05:30: MYSQL --> Connection to DB has been established successfully.
+2021-07-29 14:10:35 +05:30: Executing (default): SELECT `id`, `userName`, `email`, `userDesc`, `password`, `regTime`, `createdAt`, `updatedAt` FROM `users` AS `users` WHERE `users`.`id` = 1;
+2021-07-29 14:10:35 +05:30: Executing (default): SELECT `id`, `userName`, `email`, `userDesc`, `regTime` FROM `users` AS `users` WHERE `users`.`id` = 1;
+2021-07-29 14:15:07 +05:30: port 3046
+2021-07-29 14:15:07 +05:30: Initializing the routes. ooh, YEAH!!!
+2021-07-29 14:15:07 +05:30: (node:163358) [SEQUELIZE0002] DeprecationWarning: The logging-option should be either a function or false. Default: console.log
+2021-07-29 14:15:07 +05:30: (Use `node --trace-deprecation ...` to show where the warning was created)
+2021-07-29 14:15:07 +05:30: (node:163358) [SEQUELIZE0003] DeprecationWarning: String based operators are deprecated. Please use Symbol based operators for better security, read more at https://sequelize.org/master/manual/querying.html#operators
+2021-07-29 14:15:07 +05:30: Executing (default): SELECT 1+1 AS result
+2021-07-29 14:15:07 +05:30: MYSQL --> Connection to DB has been established successfully.
+2021-07-29 14:18:03 +05:30: { userID: 'nilotpal.saha00@gmail.com', password: 'Qwert@123' }
+2021-07-29 14:18:03 +05:30: Executing (default): SELECT `id`, `userName`, `email`, `userDesc`, `password`, `regTime`, `createdAt`, `updatedAt` FROM `users` AS `users` WHERE `users`.`email` = 'nilotpal.saha00@gmail.com';
+2021-07-29 14:18:03 +05:30: users {
+2021-07-29 14:18:03 +05:30:   dataValues: {
+2021-07-29 14:18:03 +05:30:     id: 2,
+2021-07-29 14:18:03 +05:30:     userName: 'nilotpal saha',
+2021-07-29 14:18:03 +05:30:     email: 'nilotpal.saha00@gmail.com',
+2021-07-29 14:18:03 +05:30:     userDesc: 'Senior developer',
+2021-07-29 14:18:03 +05:30:     password: '$2b$10$9QrTYsg5mt2PIFXMwvUTHeEGUfHCcs4Rb7nASX47JJA6KVcAt2HkC',
+2021-07-29 14:18:03 +05:30:     regTime: 2021-07-27T13:00:00.000Z,
+2021-07-29 14:18:03 +05:30:     createdAt: '2021-07-27 14:02:01',
+2021-07-29 14:18:03 +05:30:     updatedAt: '2021-07-27 14:02:01'
+2021-07-29 14:18:03 +05:30:   },
+2021-07-29 14:18:03 +05:30:   _previousDataValues: {
+2021-07-29 14:18:03 +05:30:     id: 2,
+2021-07-29 14:18:03 +05:30:     userName: 'nilotpal saha',
+2021-07-29 14:18:03 +05:30:     email: 'nilotpal.saha00@gmail.com',
+2021-07-29 14:18:03 +05:30:     userDesc: 'Senior developer',
+2021-07-29 14:18:03 +05:30:     password: '$2b$10$9QrTYsg5mt2PIFXMwvUTHeEGUfHCcs4Rb7nASX47JJA6KVcAt2HkC',
+2021-07-29 14:18:03 +05:30:     regTime: 2021-07-27T13:00:00.000Z,
+2021-07-29 14:18:03 +05:30:     createdAt: '2021-07-27 14:02:01',
+2021-07-29 14:18:03 +05:30:     updatedAt: '2021-07-27 14:02:01'
+2021-07-29 14:18:03 +05:30:   },
+2021-07-29 14:18:03 +05:30:   _changed: Set(0) {},
+2021-07-29 14:18:03 +05:30:   _options: {
+2021-07-29 14:18:03 +05:30:     isNewRecord: false,
+2021-07-29 14:18:03 +05:30:     _schema: null,
+2021-07-29 14:18:03 +05:30:     _schemaDelimiter: '',
+2021-07-29 14:18:03 +05:30:     raw: true,
+2021-07-29 14:18:03 +05:30:     attributes: [
+2021-07-29 14:18:03 +05:30:       'id',        'userName',
+2021-07-29 14:18:03 +05:30:       'email',     'userDesc',
+2021-07-29 14:18:03 +05:30:       'password',  'regTime',
+2021-07-29 14:18:03 +05:30:       'createdAt', 'updatedAt'
+2021-07-29 14:18:03 +05:30:     ]
+2021-07-29 14:18:03 +05:30:   },
+2021-07-29 14:18:03 +05:30:   isNewRecord: false
+2021-07-29 14:18:03 +05:30: }
+2021-07-29 14:18:25 +05:30: Executing (default): SELECT `id`, `userName`, `email`, `userDesc`, `password`, `regTime`, `createdAt`, `updatedAt` FROM `users` AS `users` WHERE `users`.`id` = 2;
+2021-07-29 14:18:25 +05:30: Executing (default): SELECT `id`, `userName`, `email`, `userDesc`, `regTime` FROM `users` AS `users` WHERE `users`.`id` = 2;
+2021-07-29 14:19:37 +05:30: Executing (default): SELECT `id`, `userName`, `email`, `userDesc`, `password`, `regTime`, `createdAt`, `updatedAt` FROM `users` AS `users` WHERE `users`.`id` = 2;
+2021-07-29 14:19:37 +05:30: Executing (default): SELECT `id`, `userName`, `email`, `userDesc`, `regTime` FROM `users` AS `users` WHERE `users`.`id` = 2;
+2021-07-29 14:19:48 +05:30: port 3046
+2021-07-29 14:19:48 +05:30: Initializing the routes. ooh, YEAH!!!
+2021-07-29 14:19:49 +05:30: (node:163913) [SEQUELIZE0002] DeprecationWarning: The logging-option should be either a function or false. Default: console.log
+2021-07-29 14:19:49 +05:30: (Use `node --trace-deprecation ...` to show where the warning was created)
+2021-07-29 14:19:49 +05:30: (node:163913) [SEQUELIZE0003] DeprecationWarning: String based operators are deprecated. Please use Symbol based operators for better security, read more at https://sequelize.org/master/manual/querying.html#operators
+2021-07-29 14:19:49 +05:30: Executing (default): SELECT 1+1 AS result
+2021-07-29 14:19:49 +05:30: MYSQL --> Connection to DB has been established successfully.
+2021-07-29 14:19:53 +05:30: undefined
+2021-07-29 14:19:53 +05:30: error occured TypeError: Cannot read property 'userID' of undefined
+2021-07-29 14:19:53 +05:30:     at /home/sahil/Desktop/Iquester/test/controllers/commonController.js:11:29
+2021-07-29 14:19:53 +05:30:     at module.exports.login (/home/sahil/Desktop/Iquester/test/controllers/commonController.js:69:5)
+2021-07-29 14:19:53 +05:30:     at Layer.handle [as handle_request] (/home/sahil/Desktop/Iquester/test/node_modules/express/lib/router/layer.js:95:5)
+2021-07-29 14:19:53 +05:30:     at next (/home/sahil/Desktop/Iquester/test/node_modules/express/lib/router/route.js:137:13)
+2021-07-29 14:19:53 +05:30:     at /home/sahil/Desktop/Iquester/test/middleware/ValidateRequest.js:8:7
+2021-07-29 14:19:53 +05:30:     at Layer.handle [as handle_request] (/home/sahil/Desktop/Iquester/test/node_modules/express/lib/router/layer.js:95:5)
+2021-07-29 14:19:53 +05:30:     at next (/home/sahil/Desktop/Iquester/test/node_modules/express/lib/router/route.js:137:13)
+2021-07-29 14:19:53 +05:30:     at Route.dispatch (/home/sahil/Desktop/Iquester/test/node_modules/express/lib/router/route.js:112:3)
+2021-07-29 14:19:53 +05:30:     at Layer.handle [as handle_request] (/home/sahil/Desktop/Iquester/test/node_modules/express/lib/router/layer.js:95:5)
+2021-07-29 14:19:53 +05:30:     at /home/sahil/Desktop/Iquester/test/node_modules/express/lib/router/index.js:281:22
+2021-07-29 14:20:04 +05:30: port 3046
+2021-07-29 14:20:04 +05:30: Initializing the routes. ooh, YEAH!!!
+2021-07-29 14:20:04 +05:30: (node:163941) [SEQUELIZE0002] DeprecationWarning: The logging-option should be either a function or false. Default: console.log
+2021-07-29 14:20:04 +05:30: (Use `node --trace-deprecation ...` to show where the warning was created)
+2021-07-29 14:20:04 +05:30: (node:163941) [SEQUELIZE0003] DeprecationWarning: String based operators are deprecated. Please use Symbol based operators for better security, read more at https://sequelize.org/master/manual/querying.html#operators
+2021-07-29 14:20:04 +05:30: Executing (default): SELECT 1+1 AS result
+2021-07-29 14:20:04 +05:30: MYSQL --> Connection to DB has been established successfully.
+2021-07-29 14:20:06 +05:30: { userID: 'nilotpal.saha00@gmail.com', password: 'Qwert@123' }
+2021-07-29 14:20:06 +05:30: Executing (default): SELECT `id`, `userName`, `email`, `userDesc`, `password`, `regTime`, `createdAt`, `updatedAt` FROM `users` AS `users` WHERE `users`.`email` = 'nilotpal.saha00@gmail.com';
+2021-07-29 14:20:06 +05:30: users {
+2021-07-29 14:20:06 +05:30:   dataValues: {
+2021-07-29 14:20:06 +05:30:     id: 2,
+2021-07-29 14:20:06 +05:30:     userName: 'nilotpal saha',
+2021-07-29 14:20:06 +05:30:     email: 'nilotpal.saha00@gmail.com',
+2021-07-29 14:20:06 +05:30:     userDesc: 'Senior developer',
+2021-07-29 14:20:06 +05:30:     password: '$2b$10$9QrTYsg5mt2PIFXMwvUTHeEGUfHCcs4Rb7nASX47JJA6KVcAt2HkC',
+2021-07-29 14:20:06 +05:30:     regTime: 2021-07-27T13:00:00.000Z,
+2021-07-29 14:20:06 +05:30:     createdAt: '2021-07-27 14:02:01',
+2021-07-29 14:20:06 +05:30:     updatedAt: '2021-07-27 14:02:01'
+2021-07-29 14:20:06 +05:30:   },
+2021-07-29 14:20:06 +05:30:   _previousDataValues: {
+2021-07-29 14:20:06 +05:30:     id: 2,
+2021-07-29 14:20:06 +05:30:     userName: 'nilotpal saha',
+2021-07-29 14:20:06 +05:30:     email: 'nilotpal.saha00@gmail.com',
+2021-07-29 14:20:06 +05:30:     userDesc: 'Senior developer',
+2021-07-29 14:20:06 +05:30:     password: '$2b$10$9QrTYsg5mt2PIFXMwvUTHeEGUfHCcs4Rb7nASX47JJA6KVcAt2HkC',
+2021-07-29 14:20:06 +05:30:     regTime: 2021-07-27T13:00:00.000Z,
+2021-07-29 14:20:06 +05:30:     createdAt: '2021-07-27 14:02:01',
+2021-07-29 14:20:06 +05:30:     updatedAt: '2021-07-27 14:02:01'
+2021-07-29 14:20:06 +05:30:   },
+2021-07-29 14:20:06 +05:30:   _changed: Set(0) {},
+2021-07-29 14:20:06 +05:30:   _options: {
+2021-07-29 14:20:06 +05:30:     isNewRecord: false,
+2021-07-29 14:20:06 +05:30:     _schema: null,
+2021-07-29 14:20:06 +05:30:     _schemaDelimiter: '',
+2021-07-29 14:20:06 +05:30:     raw: true,
+2021-07-29 14:20:06 +05:30:     attributes: [
+2021-07-29 14:20:06 +05:30:       'id',        'userName',
+2021-07-29 14:20:06 +05:30:       'email',     'userDesc',
+2021-07-29 14:20:06 +05:30:       'password',  'regTime',
+2021-07-29 14:20:06 +05:30:       'createdAt', 'updatedAt'
+2021-07-29 14:20:06 +05:30:     ]
+2021-07-29 14:20:06 +05:30:   },
+2021-07-29 14:20:06 +05:30:   isNewRecord: false
+2021-07-29 14:20:06 +05:30: }
+2021-07-29 14:20:11 +05:30: Executing (default): SELECT `id`, `userName`, `email`, `userDesc`, `password`, `regTime`, `createdAt`, `updatedAt` FROM `users` AS `users` WHERE `users`.`id` = 2;
+2021-07-29 14:20:11 +05:30: Executing (default): SELECT `id`, `userName`, `email`, `userDesc`, `regTime` FROM `users` AS `users` WHERE `users`.`id` = 2;

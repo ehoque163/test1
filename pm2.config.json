@@ -1,0 +1,52 @@
+{
+  "apps": [
+    {
+      "name": "test",
+      "script": "app.js",
+      "log_date_format": "YYYY-MM-DD HH:mm:ss Z",
+      "watch": true,
+      "watch_options": {
+        "usePolling": true,
+        "alwaysStat": true,
+        "useFsEvents": false
+      },
+      "ignore_watch": [
+        "nbproject",
+        "uploads",
+        "log",
+        "logs",
+        "test",
+        "node_modules",
+        ".git"
+      ],
+      "instances": 1,
+      "exec_mode": "fork",
+      "log_file": "log/pm2_log.log",
+      "out_file": "log/pm2_out.log",
+      "error_file": "log/pm2_err.log",
+      "env_local": {
+        "SERVER_PORT": "3046",
+        "NODE_ENV": "local",
+        "DEBUG": "test-dev:*",
+        "GIT_BRANCH": "dev",
+        "SECRET_BASE32" :"G5UFIWZBLYWGMPSYMNME6VL5JJDCK4RKNNHE2QTC",
+        "DB_CONNECTION": "mysql",
+        "DB_HOST": "localhost",
+        "DB_USERNAME": "root",
+        "DB_PORT": "3306",
+        "DB_DIALECT": "mysql",
+        "PASSWORD_SALT":"d^s7(*&(*&@Sa#*(2",
+        "DB_PASSWORD": "User(123)",
+        "DB_DATABASE": "test11",
+        "ENVIRONMENT" : "local",
+        "WEBURL": "http://localhost",
+        "APIURL": "http://localhost:3045"
+      },
+      "post_update": [
+        "echo App has been updated, running npm install...",
+        "npm install",
+        "echo App is being restarted now"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+2021-07-29 14:00:13 +05:30: port 3046
+2021-07-29 14:00:13 +05:30: Initializing the routes. ooh, YEAH!!!
+2021-07-29 14:00:13 +05:30: Executing (default): SELECT 1+1 AS result
+2021-07-29 14:00:13 +05:30: MYSQL --> Connection to DB has been established successfully.
+2021-07-29 14:00:54 +05:30: { userID: 'ehoque163@gmail.com', password: 'Qwert@123' }
+2021-07-29 14:00:54 +05:30: Executing (default): SELECT `id`, `userName`, `email`, `userDesc`, `password`, `regTime`, `createdAt`, `updatedAt` FROM `users` AS `users` WHERE `users`.`email` = 'ehoque163@gmail.com';
+2021-07-29 14:00:54 +05:30: users {
+2021-07-29 14:00:54 +05:30:   dataValues: {
+2021-07-29 14:00:54 +05:30:     id: 1,
+2021-07-29 14:00:54 +05:30:     userName: 'enjamamul hoque',
+2021-07-29 14:00:54 +05:30:     email: 'ehoque163@gmail.com',
+2021-07-29 14:00:54 +05:30:     userDesc: 'developer',
+2021-07-29 14:00:54 +05:30:     password: '$2b$10$9QrTYsg5mt2PIFXMwvUTHeEGUfHCcs4Rb7nASX47JJA6KVcAt2HkC',
+2021-07-29 14:00:54 +05:30:     regTime: 2021-07-27T13:00:00.000Z,
+2021-07-29 14:00:54 +05:30:     createdAt: '2021-07-27 14:02:01',
+2021-07-29 14:00:54 +05:30:     updatedAt: '2021-07-27 14:02:01'
+2021-07-29 14:00:54 +05:30:   },
+2021-07-29 14:00:54 +05:30:   _previousDataValues: {
+2021-07-29 14:00:54 +05:30:     id: 1,
+2021-07-29 14:00:54 +05:30:     userName: 'enjamamul hoque',
+2021-07-29 14:00:54 +05:30:     email: 'ehoque163@gmail.com',
+2021-07-29 14:00:54 +05:30:     userDesc: 'developer',
+2021-07-29 14:00:54 +05:30:     password: '$2b$10$9QrTYsg5mt2PIFXMwvUTHeEGUfHCcs4Rb7nASX47JJA6KVcAt2HkC',
+2021-07-29 14:00:54 +05:30:     regTime: 2021-07-27T13:00:00.000Z,
+2021-07-29 14:00:54 +05:30:     createdAt: '2021-07-27 14:02:01',
+2021-07-29 14:00:54 +05:30:     updatedAt: '2021-07-27 14:02:01'
+2021-07-29 14:00:54 +05:30:   },
+2021-07-29 14:00:54 +05:30:   _changed: Set(0) {},
+2021-07-29 14:00:54 +05:30:   _options: {
+2021-07-29 14:00:54 +05:30:     isNewRecord: false,
+2021-07-29 14:00:54 +05:30:     _schema: null,
+2021-07-29 14:00:54 +05:30:     _schemaDelimiter: '',
+2021-07-29 14:00:54 +05:30:     raw: true,
+2021-07-29 14:00:54 +05:30:     attributes: [
+2021-07-29 14:00:54 +05:30:       'id',        'userName',
+2021-07-29 14:00:54 +05:30:       'email',     'userDesc',
+2021-07-29 14:00:54 +05:30:       'password',  'regTime',
+2021-07-29 14:00:54 +05:30:       'createdAt', 'updatedAt'
+2021-07-29 14:00:54 +05:30:     ]
+2021-07-29 14:00:54 +05:30:   },
+2021-07-29 14:00:54 +05:30:   isNewRecord: false
+2021-07-29 14:00:54 +05:30: }
+2021-07-29 14:01:08 +05:30: Executing (default): SELECT `id`, `userName`, `email`, `userDesc`, `password`, `regTime`, `createdAt`, `updatedAt` FROM `users` AS `users` WHERE `users`.`id` = 1;
+2021-07-29 14:01:08 +05:30: Executing (default): SELECT `id`, `userName`, `email`, `userDesc`, `regTime` FROM `users` AS `users` WHERE `users`.`id` = 1;
+2021-07-29 14:01:27 +05:30: port 3046
+2021-07-29 14:01:27 +05:30: Initializing the routes. ooh, YEAH!!!
+2021-07-29 14:01:27 +05:30: Executing (default): SELECT 1+1 AS result
+2021-07-29 14:01:27 +05:30: MYSQL --> Connection to DB has been established successfully.
+2021-07-29 14:05:53 +05:30: Executing (default): SELECT `id`, `userName`, `email`, `userDesc`, `password`, `regTime`, `createdAt`, `updatedAt` FROM `users` AS `users` WHERE `users`.`id` = 1;
+2021-07-29 14:05:53 +05:30: Executing (default): SELECT `id`, `userName`, `email`, `userDesc`, `regTime` FROM `users` AS `users` WHERE `users`.`id` = 1;
+2021-07-29 14:06:59 +05:30: { userID: 'ehoque163@gmail.com', password: 'Qwert@123' }
+2021-07-29 14:06:59 +05:30: Executing (default): SELECT `id`, `userName`, `email`, `userDesc`, `password`, `regTime`, `createdAt`, `updatedAt` FROM `users` AS `users` WHERE `users`.`email` = 'ehoque163@gmail.com';
+2021-07-29 14:06:59 +05:30: users {
+2021-07-29 14:06:59 +05:30:   dataValues: {
+2021-07-29 14:06:59 +05:30:     id: 1,
+2021-07-29 14:06:59 +05:30:     userName: 'enjamamul hoque',
+2021-07-29 14:06:59 +05:30:     email: 'ehoque163@gmail.com',
+2021-07-29 14:06:59 +05:30:     userDesc: 'developer',
+2021-07-29 14:06:59 +05:30:     password: '$2b$10$9QrTYsg5mt2PIFXMwvUTHeEGUfHCcs4Rb7nASX47JJA6KVcAt2HkC',
+2021-07-29 14:06:59 +05:30:     regTime: 2021-07-27T13:00:00.000Z,
+2021-07-29 14:06:59 +05:30:     createdAt: '2021-07-27 14:02:01',
+2021-07-29 14:06:59 +05:30:     updatedAt: '2021-07-27 14:02:01'
+2021-07-29 14:06:59 +05:30:   },
+2021-07-29 14:06:59 +05:30:   _previousDataValues: {
+2021-07-29 14:06:59 +05:30:     id: 1,
+2021-07-29 14:06:59 +05:30:     userName: 'enjamamul hoque',
+2021-07-29 14:06:59 +05:30:     email: 'ehoque163@gmail.com',
+2021-07-29 14:06:59 +05:30:     userDesc: 'developer',
+2021-07-29 14:06:59 +05:30:     password: '$2b$10$9QrTYsg5mt2PIFXMwvUTHeEGUfHCcs4Rb7nASX47JJA6KVcAt2HkC',
+2021-07-29 14:06:59 +05:30:     regTime: 2021-07-27T13:00:00.000Z,
+2021-07-29 14:06:59 +05:30:     createdAt: '2021-07-27 14:02:01',
+2021-07-29 14:06:59 +05:30:     updatedAt: '2021-07-27 14:02:01'
+2021-07-29 14:06:59 +05:30:   },
+2021-07-29 14:06:59 +05:30:   _changed: Set(0) {},
+2021-07-29 14:06:59 +05:30:   _options: {
+2021-07-29 14:06:59 +05:30:     isNewRecord: false,
+2021-07-29 14:06:59 +05:30:     _schema: null,
+2021-07-29 14:06:59 +05:30:     _schemaDelimiter: '',
+2021-07-29 14:06:59 +05:30:     raw: true,
+2021-07-29 14:06:59 +05:30:     attributes: [
+2021-07-29 14:06:59 +05:30:       'id',        'userName',
+2021-07-29 14:06:59 +05:30:       'email',     'userDesc',
+2021-07-29 14:06:59 +05:30:       'password',  'regTime',
+2021-07-29 14:06:59 +05:30:       'createdAt', 'updatedAt'
+2021-07-29 14:06:59 +05:30:     ]
+2021-07-29 14:06:59 +05:30:   },
+2021-07-29 14:06:59 +05:30:   isNewRecord: false
+2021-07-29 14:06:59 +05:30: }
+2021-07-29 14:07:10 +05:30: Executing (default): SELECT `id`, `userName`, `email`, `userDesc`, `password`, `regTime`, `createdAt`, `updatedAt` FROM `users` AS `users` WHERE `users`.`id` = 1;
+2021-07-29 14:07:10 +05:30: Executing (default): SELECT `id`, `userName`, `email`, `userDesc`, `regTime` FROM `users` AS `users` WHERE `users`.`id` = 1;
+2021-07-29 14:07:49 +05:30: port 3046
+2021-07-29 14:07:49 +05:30: Initializing the routes. ooh, YEAH!!!
+2021-07-29 14:07:50 +05:30: Executing (default): SELECT 1+1 AS result
+2021-07-29 14:07:50 +05:30: MYSQL --> Connection to DB has been established successfully.
+2021-07-29 14:09:00 +05:30: port 3046
+2021-07-29 14:09:00 +05:30: Initializing the routes. ooh, YEAH!!!
+2021-07-29 14:09:00 +05:30: Executing (default): SELECT 1+1 AS result
+2021-07-29 14:09:00 +05:30: MYSQL --> Connection to DB has been established successfully.
+2021-07-29 14:09:05 +05:30: Executing (default): SELECT `id`, `userName`, `email`, `userDesc`, `password`, `regTime`, `createdAt`, `updatedAt` FROM `users` AS `users` WHERE `users`.`id` = 1;
+2021-07-29 14:09:05 +05:30: Executing (default): SELECT `id`, `userName`, `email`, `userDesc`, `regTime` FROM `users` AS `users` WHERE `users`.`id` = 1;

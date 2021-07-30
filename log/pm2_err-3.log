@@ -1,0 +1,12 @@
+2021-07-29 14:09:57 +05:30: (node:162866) [SEQUELIZE0002] DeprecationWarning: The logging-option should be either a function or false. Default: console.log
+2021-07-29 14:09:57 +05:30: (Use `node --trace-deprecation ...` to show where the warning was created)
+2021-07-29 14:09:57 +05:30: (node:162866) [SEQUELIZE0003] DeprecationWarning: String based operators are deprecated. Please use Symbol based operators for better security, read more at https://sequelize.org/master/manual/querying.html#operators
+2021-07-29 14:15:07 +05:30: (node:163358) [SEQUELIZE0002] DeprecationWarning: The logging-option should be either a function or false. Default: console.log
+2021-07-29 14:15:07 +05:30: (Use `node --trace-deprecation ...` to show where the warning was created)
+2021-07-29 14:15:07 +05:30: (node:163358) [SEQUELIZE0003] DeprecationWarning: String based operators are deprecated. Please use Symbol based operators for better security, read more at https://sequelize.org/master/manual/querying.html#operators
+2021-07-29 14:19:49 +05:30: (node:163913) [SEQUELIZE0002] DeprecationWarning: The logging-option should be either a function or false. Default: console.log
+2021-07-29 14:19:49 +05:30: (Use `node --trace-deprecation ...` to show where the warning was created)
+2021-07-29 14:19:49 +05:30: (node:163913) [SEQUELIZE0003] DeprecationWarning: String based operators are deprecated. Please use Symbol based operators for better security, read more at https://sequelize.org/master/manual/querying.html#operators
+2021-07-29 14:20:04 +05:30: (node:163941) [SEQUELIZE0002] DeprecationWarning: The logging-option should be either a function or false. Default: console.log
+2021-07-29 14:20:04 +05:30: (Use `node --trace-deprecation ...` to show where the warning was created)
+2021-07-29 14:20:04 +05:30: (node:163941) [SEQUELIZE0003] DeprecationWarning: String based operators are deprecated. Please use Symbol based operators for better security, read more at https://sequelize.org/master/manual/querying.html#operators
